@@ -19,6 +19,10 @@ cask_applications:
   - checkra1n
 
 downloads:
+   zwift:
+     name: Zwift
+     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
 #   zwift:
 #     name: Zwift
 #     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
