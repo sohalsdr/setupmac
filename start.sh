@@ -22,7 +22,7 @@ if [ $1 == "uninstall" ]; then
 fi
 
 echo "==========================================="
-echo "Setting up your mac using daemonza/setupmac"
+echo "Welcome, Sohal! Setting up your Mac using sohalsdr/setupmac."
 echo "==========================================="
 
 sudo easy_install pip
@@ -31,7 +31,7 @@ sudo easy_install ansible
 installdir="/tmp/setupmac-$RANDOM"
 mkdir $installdir
 
-git clone https://github.com/daemonza/setupmac.git $installdir 
+git clone https://github.com/sohalsdr/setupmac.git $installdir 
 if [ ! -d $installdir ]; then
     echo "failed to find setupmac."
     echo "git cloned failed"
@@ -45,6 +45,6 @@ echo "cleaning up..."
 
 rm -Rfv /tmp/$installdir
 
-echo "and we are done! Enjoy!"
+echo "All done! Have a great day! ^_^"
 
 exit 0
