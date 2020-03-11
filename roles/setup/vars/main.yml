@@ -23,9 +23,9 @@ downloads:
      name: profilepic
      url: https://github.com/sohalsdr/setupmac/raw/master/profilepic.jpg
      dest: "{{general.local_home}}/Documents/profilepic.jpg"
-#   zwift:
-#     name: Zwift
-#     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-#     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
+   Anaconda:
+     name: Anaconda
+     url: https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.sh
+     dest: "{{general.local_home}}/Downloads/Anaconda3-2019.10-MacOSX-x86_64.sh"
 
 
