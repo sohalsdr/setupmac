@@ -19,10 +19,10 @@ cask_applications:
   - checkra1n
 
 downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
+   profilepic:
+     name: profilepic
+     url: https://github.com/sohalsdr/setupmac/raw/master/profilepic.jpg
+     dest: "{{general.local_home}}/Documents/profilepic.jpg"
 #   zwift:
 #     name: Zwift
 #     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
