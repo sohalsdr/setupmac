@@ -13,7 +13,7 @@ applications:
 
 # homebrew cask applications
 cask_applications:
-  - google-chrome
+  - firefox
   - caffeine
   - spotify
   - checkra1n
