@@ -17,6 +17,7 @@ cask_applications:
   - caffeine
   - spotify
   - checkra1n
+  - balenaetcher
 
 downloads:
    profilepic:
