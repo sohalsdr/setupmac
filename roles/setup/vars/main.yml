@@ -10,6 +10,7 @@ applications:
   - curl
   - wget
   - zsh
+  - gh
 
 # homebrew cask applications
 cask_applications:
@@ -18,15 +19,14 @@ cask_applications:
   - spotify
   - checkra1n
   - balenaetcher
+  - intellij-idea-ce
+  - github
+  - typora
+  - visual-studio-code
+  - adoptopenjdk8
 
 downloads:
    profilepic:
      name: profilepic
      url: https://github.com/sohalsdr/setupmac/raw/master/profilepic.jpg
      dest: "{{general.local_home}}/Documents/profilepic.jpg"
-   Anaconda:
-     name: Anaconda
-     url: https://repo.anaconda.com/archive/Anaconda3-2019.10-MacOSX-x86_64.sh
-     dest: "{{general.local_home}}/Downloads/Anaconda3-2019.10-MacOSX-x86_64.sh"
-
-
